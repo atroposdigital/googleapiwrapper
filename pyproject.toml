@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "googleapiwrapper"
+version = "0.0.1"
+description = "A wrapper for the Google API"
+authors = ["atroposdigital <dimitris@atroposdigital.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-api-python-client = "^2.127.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^5.0.0"
+wheel = "^0.43.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
